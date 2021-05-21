@@ -29,6 +29,7 @@ namespace _GenshinDynamicPlanner
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel_LoginForm = new System.Windows.Forms.TableLayoutPanel();
             this.btnLFRegisterConfirm = new System.Windows.Forms.Button();
             this.btnLFLoginConfirm = new System.Windows.Forms.Button();
@@ -46,11 +47,15 @@ namespace _GenshinDynamicPlanner
             this.flp_CharPlanner = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage_ItemInv = new System.Windows.Forms.TabPage();
             this.flp_ItemInv = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel_LoginForm.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage_LoginForm.SuspendLayout();
             this.tabPage_CharPlanner.SuspendLayout();
             this.tabPage_ItemInv.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel_LoginForm
@@ -70,6 +75,8 @@ namespace _GenshinDynamicPlanner
             this.tableLayoutPanel_LoginForm.Controls.Add(this.textBox_Email, 0, 0);
             this.tableLayoutPanel_LoginForm.Controls.Add(this.textBox_Password, 1, 1);
             this.tableLayoutPanel_LoginForm.Controls.Add(this.textBox_ConfirmPassword, 1, 2);
+            this.tableLayoutPanel_LoginForm.Controls.Add(this.pictureBox1, 0, 2);
+            this.tableLayoutPanel_LoginForm.Controls.Add(this.pictureBox2, 0, 1);
             this.tableLayoutPanel_LoginForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel_LoginForm.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel_LoginForm.Name = "tableLayoutPanel_LoginForm";
@@ -300,6 +307,28 @@ namespace _GenshinDynamicPlanner
             this.flp_ItemInv.Size = new System.Drawing.Size(978, 555);
             this.flp_ItemInv.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 277);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(317, 131);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 140);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(317, 131);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,6 +336,7 @@ namespace _GenshinDynamicPlanner
             this.ClientSize = new System.Drawing.Size(986, 581);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(996, 610);
             this.Name = "Form1";
             this.Text = "_GenshinDynamicPlanner";
@@ -317,6 +347,8 @@ namespace _GenshinDynamicPlanner
             this.tabPage_CharPlanner.ResumeLayout(false);
             this.tabPage_ItemInv.ResumeLayout(false);
             this.tabPage_ItemInv.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -340,6 +372,8 @@ namespace _GenshinDynamicPlanner
         private System.Windows.Forms.TabPage tabPage_ItemInv;
         private System.Windows.Forms.FlowLayoutPanel flp_ItemInv;
         private System.Windows.Forms.FlowLayoutPanel flp_CharPlanner;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
