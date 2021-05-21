@@ -55,7 +55,7 @@ namespace _GenshinDynamicPlanner
             // 
             // tableLayoutPanel_LoginForm
             // 
-            this.tableLayoutPanel_LoginForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.tableLayoutPanel_LoginForm.BackColor = System.Drawing.Color.DimGray;
             this.tableLayoutPanel_LoginForm.ColumnCount = 3;
             this.tableLayoutPanel_LoginForm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel_LoginForm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
@@ -85,10 +85,11 @@ namespace _GenshinDynamicPlanner
             // btnLFRegisterConfirm
             // 
             this.btnLFRegisterConfirm.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnLFRegisterConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.btnLFRegisterConfirm.BackColor = System.Drawing.Color.Silver;
             this.btnLFRegisterConfirm.FlatAppearance.BorderSize = 0;
             this.btnLFRegisterConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLFRegisterConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLFRegisterConfirm.ForeColor = System.Drawing.Color.Black;
             this.btnLFRegisterConfirm.Location = new System.Drawing.Point(650, 331);
             this.btnLFRegisterConfirm.Name = "btnLFRegisterConfirm";
             this.btnLFRegisterConfirm.Size = new System.Drawing.Size(75, 23);
@@ -101,10 +102,11 @@ namespace _GenshinDynamicPlanner
             // btnLFLoginConfirm
             // 
             this.btnLFLoginConfirm.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnLFLoginConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.btnLFLoginConfirm.BackColor = System.Drawing.Color.Silver;
             this.btnLFLoginConfirm.FlatAppearance.BorderSize = 0;
             this.btnLFLoginConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLFLoginConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLFLoginConfirm.ForeColor = System.Drawing.Color.Black;
             this.btnLFLoginConfirm.Location = new System.Drawing.Point(650, 194);
             this.btnLFLoginConfirm.Name = "btnLFLoginConfirm";
             this.btnLFLoginConfirm.Size = new System.Drawing.Size(75, 23);
@@ -116,10 +118,11 @@ namespace _GenshinDynamicPlanner
             // btnLFAccountRecoveryConfirm
             // 
             this.btnLFAccountRecoveryConfirm.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnLFAccountRecoveryConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.btnLFAccountRecoveryConfirm.BackColor = System.Drawing.Color.Silver;
             this.btnLFAccountRecoveryConfirm.FlatAppearance.BorderSize = 0;
             this.btnLFAccountRecoveryConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLFAccountRecoveryConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLFAccountRecoveryConfirm.ForeColor = System.Drawing.Color.Black;
             this.btnLFAccountRecoveryConfirm.Location = new System.Drawing.Point(650, 57);
             this.btnLFAccountRecoveryConfirm.Name = "btnLFAccountRecoveryConfirm";
             this.btnLFAccountRecoveryConfirm.Size = new System.Drawing.Size(75, 23);
@@ -261,7 +264,7 @@ namespace _GenshinDynamicPlanner
             this.tabPage_CharPlanner.Location = new System.Drawing.Point(4, 22);
             this.tabPage_CharPlanner.Name = "tabPage_CharPlanner";
             this.tabPage_CharPlanner.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_CharPlanner.Size = new System.Drawing.Size(913, 555);
+            this.tabPage_CharPlanner.Size = new System.Drawing.Size(978, 555);
             this.tabPage_CharPlanner.TabIndex = 1;
             this.tabPage_CharPlanner.Text = "Character Planner";
             this.tabPage_CharPlanner.UseVisualStyleBackColor = true;
@@ -269,10 +272,11 @@ namespace _GenshinDynamicPlanner
             // flp_CharPlanner
             // 
             this.flp_CharPlanner.AutoScroll = true;
+            this.flp_CharPlanner.BackColor = System.Drawing.Color.DimGray;
             this.flp_CharPlanner.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flp_CharPlanner.Location = new System.Drawing.Point(3, 3);
             this.flp_CharPlanner.Name = "flp_CharPlanner";
-            this.flp_CharPlanner.Size = new System.Drawing.Size(907, 549);
+            this.flp_CharPlanner.Size = new System.Drawing.Size(972, 549);
             this.flp_CharPlanner.TabIndex = 0;
             // 
             // tabPage_ItemInv
@@ -280,7 +284,7 @@ namespace _GenshinDynamicPlanner
             this.tabPage_ItemInv.Controls.Add(this.flp_ItemInv);
             this.tabPage_ItemInv.Location = new System.Drawing.Point(4, 22);
             this.tabPage_ItemInv.Name = "tabPage_ItemInv";
-            this.tabPage_ItemInv.Size = new System.Drawing.Size(913, 555);
+            this.tabPage_ItemInv.Size = new System.Drawing.Size(978, 555);
             this.tabPage_ItemInv.TabIndex = 2;
             this.tabPage_ItemInv.Text = "Item Inventory";
             this.tabPage_ItemInv.UseVisualStyleBackColor = true;
@@ -289,10 +293,11 @@ namespace _GenshinDynamicPlanner
             // 
             this.flp_ItemInv.AutoScroll = true;
             this.flp_ItemInv.AutoSize = true;
+            this.flp_ItemInv.BackColor = System.Drawing.Color.DimGray;
             this.flp_ItemInv.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flp_ItemInv.Location = new System.Drawing.Point(0, 0);
             this.flp_ItemInv.Name = "flp_ItemInv";
-            this.flp_ItemInv.Size = new System.Drawing.Size(913, 555);
+            this.flp_ItemInv.Size = new System.Drawing.Size(978, 555);
             this.flp_ItemInv.TabIndex = 0;
             // 
             // Form1
