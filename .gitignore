@@ -338,3 +338,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/_GenshinDynamicPlanner_BAK.sql
+/_GenshinDynamicPlanner_BAK_csc340db.sql
+/db_note.txt
