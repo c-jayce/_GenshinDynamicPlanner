@@ -1,7 +1,7 @@
 # _GenshinDynamicPlanner
 Genshin Impact Dynamic Character Build Planner (C#)
 
-This project was created for educational purposes to explore dynamic UI design in winforms and to practice C#.
+This project was created for educational purposes to explore dynamic UI design in winforms and to practice C#.  
 Project is in-progress - database table is not updated to contain all characters/weapons/items from the game.
 
 Test Login:  
